@@ -1,0 +1,16 @@
+create-parser 02lab_lindsey_vanderlyn.lfg
+
+proc prs {N} {
+     create-parser 02lab_lindsey_vanderlyn.lfg
+     parse-testfile 02test.lfg $N
+}
+
+proc parse-test {} {
+     create-parser 02lab_lindsey_vanderlyn.lfg
+     parse-testfile 02test.lfg
+}
+
+proc parse2 {sentence} {
+     create-parser 02lab_lindsey_vanderlyn.lfg
+     parse $sentence
+}

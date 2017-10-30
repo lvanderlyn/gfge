@@ -1,0 +1,55 @@
+SMALL ENGLISH CONFIG (1.0)
+  ROOTCAT S.
+  LEXENTRIES (SMALL ENGLISH).
+  RULES (SMALL ENGLISH).
+----
+
+SMALL ENGLISH RULES (1.0)
+
+S --> (ADVP) NP VP.
+ADVP --> ADV+.
+ADJP --> (ADVP) ADJ+.
+NP --> {DET (ADJP) N PP* | (ADJP) dN PP*}.
+PP --> P NP.
+VP --> (ADVP) {IV | TV NP | DV NP {PP | NP}} (ADVP) PP*.
+
+----
+
+SMALL ENGLISH LEXICON (1.0)
+ old ADJ * .
+ grumpy ADJ * .
+ drunk ADJ * .
+ the DET * .
+ Jack dN * .
+ captain N * .
+ shouts IV * .
+ today ADV * .
+ angrily ADV * .
+ a DET * .
+ with P * .
+ beard N * .
+ sees TV * . 
+ saw TV * ;
+     N * .
+ pirate N * .
+ telescope N * .
+ hook N * .
+ sailor N * .
+ fights IV * ;
+ 	TV * .
+ fight IV * ;
+       TV * .
+ fought IV * ;
+ 	TV * .
+ sailors N * .
+ gives DV * .
+ gave DV * .
+ to P * .
+ 
+ 
+ 
+
+----
+
+"For the first parts of this exercise I worked together with Alicia Assini."
+"Question 8) Other sentences that parse are things like: the grumpy drunk captain with a beard shouts angrily with old Jack"
