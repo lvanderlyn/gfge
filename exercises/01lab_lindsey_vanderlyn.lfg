@@ -11,7 +11,7 @@ ADVP --> ADV+.
 ADJP --> (ADVP) ADJ+.
 NP --> {DET (ADJP) N PP* | (ADJP) dN PP*}.
 PP --> P NP.
-VP --> (ADVP) {IV | TV NP | DV NP {PP | NP}} PP*.
+VP --> (ADVP) {IV | TV NP | DV NP {PP | NP}} (ADVP) PP*.
 
 ----
 
@@ -28,16 +28,19 @@ SMALL ENGLISH LEXICON (1.0)
  a DET * .
  with P * .
  beard N * .
- sees TV * .
+ sees TV * . 
  saw TV * ;
      N * .
  pirate N * .
  telescope N * .
  hook N * .
  sailor N * .
- fights IV * .
- fight IV * .
- fought IV * .
+ fights IV * ;
+ 	TV * .
+ fight IV * ;
+       TV * .
+ fought IV * ;
+ 	TV * .
  sailors N * .
  gives DV * .
  gave DV * .
