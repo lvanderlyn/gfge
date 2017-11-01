@@ -10,7 +10,7 @@ proc parse-test {} {
      parse-testfile 02test.lfg
 }
 
-proc parse2 {sentence} {
+proc parse-r {sentence} {
      create-parser 02lab_lindsey_vanderlyn.lfg
      parse $sentence
 }
